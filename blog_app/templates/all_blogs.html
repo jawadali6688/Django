@@ -1,0 +1,31 @@
+{% extends "base1.html" %}
+
+
+{% block title %}
+  Blog | All Blogs
+{% endblock title %}
+
+{% block blog_content %}
+  <h1>All blogs by users</h1>
+
+  <div
+  style="display: flex; flex-direction: column; gap: 15px;"
+  >
+  
+  {{ user.username }} <b>User</b>
+
+  <!-- <div class="card" style="width: 18rem;"> -->
+    <!-- <img class="card-img-top" src="{{ blog.image.url}}" alt="{{ blog.image.url}}"> -->
+    <!-- <div class="card-body">
+      <h5 class="card-title">{{ blog.title }}</h5>
+      <p class="card-text">Created By: {{ blog.created_by.username}}</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div> -->
+
+
+
+  </div>
+
+ 
+{% endblock blog_content %}
